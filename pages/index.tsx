@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Paul's Personal site</title>
+        <title>Paul&apos;s Personal site</title>
         <meta name="Paul's Personal site" content="Made with Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
