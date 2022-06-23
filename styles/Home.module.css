@@ -4,11 +4,10 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  margin: 1rem auto;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -82,7 +81,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+ 
 }
 
 .card:hover,
@@ -131,5 +130,29 @@
 .heroText {
   flex: 1;
   flex-direction: column;
-  padding: 0 2rem;
+  padding: 0 auto;
+}
+
+.link {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.heroText li {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.heroText h1 {
+  text-align: center;
+  margin: auto;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.heroText h2 {
+  margin: auto;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
