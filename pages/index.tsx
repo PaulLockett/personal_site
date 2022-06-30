@@ -24,7 +24,8 @@ export default function Home() {
           <div
             className={styles.card}
             onClick={() => {
-              alert("don't click that!");
+              window.location.href =
+                "https://github.com/PaulLockett/personal_site";
             }}
           >
             <h1>Hey 👋🏾</h1>
